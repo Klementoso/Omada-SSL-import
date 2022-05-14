@@ -7,8 +7,11 @@ For the original post see: https://community.tp-link.com/en/business/forum/topic
 I recently upgraded my controller from 5.0.30 to 5.3.1 and found out the script no longer works. TP-Link Devs have moved the keystore to a different location (data).
 Omada is a very promising platform, but it lacks the community and many topics like Ubiquiti has. This is why I decided to contribute to the community.
 
-In version 1.1 of this script I will push the changes to make it work from 5.3.1. At least up until 5.0.30 version 1.0 should be working. I haven't tested versions in between.
+Version 1.1 adds support for Omada 5.3.1. As of May 14th 2022 this is the only version that is verified to work. TP-Link has a habbit of changing minor things that break stuff. At least up until 5.0.30 version 1.0 should be working. I haven't tested versions in between.
 
+Don't forget to change OMADA_HOSTNAME to your own FQDN! After upgrading Omada this script has to be run again because installing/upgrading overwrites keystore.
+
+------------------
 The post by Ermax:
 I just successfully used an LE cert on my controller. Here is what I did.
 

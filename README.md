@@ -11,6 +11,10 @@ Version 1.1 adds support for Omada 5.3.1. As of May 14th 2022 this is the only v
 
 Don't forget to change OMADA_HOSTNAME to your own FQDN! After upgrading Omada this script has to be run again because installing/upgrading overwrites keystore.
 
+UPDATE 13-08-2022:
+Updated to Omada 5.4.6 today. Appeared I didn't need to reinstall the cert. I forced a renew and tried the import and everything went smooth. 
+So I can confirm this script still works with 5.4.6!
+
 ------------------
 The post by Ermax:
 I just successfully used an LE cert on my controller. Here is what I did.
